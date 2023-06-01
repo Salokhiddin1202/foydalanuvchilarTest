@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="490.0" prefWidth="1000.0" style="-fx-background-color: #C234;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.foydalanuvchilartest.TestGame">
+   <children>
+      <BorderPane layoutX="150.0" layoutY="34.0" prefHeight="544.0" prefWidth="1000.0" AnchorPane.bottomAnchor="56.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="114.0" prefWidth="1000.0" style="-fx-background-color: #123;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="183.0" layoutY="22.0" prefHeight="70.0" prefWidth="634.0" text="Foydalanuvchi Bilimini Tekshirish" textFill="#b96f6f">
+                     <font>
+                        <Font name="Algerian" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane prefHeight="353.0" prefWidth="452.0" style="-fx-background-color: #1234;" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="-3.0" prefHeight="386.0" prefWidth="458.0" style="-fx-background-color: #2d739c;" AnchorPane.bottomAnchor="-58.0" AnchorPane.leftAnchor="-3.0" AnchorPane.rightAnchor="-3.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label fx:id="answer" layoutX="251.0" layoutY="269.0" prefHeight="72.0" prefWidth="171.0" style="-fx-background-color: #79cbd9;" textFill="#3a4446">
+                           <font>
+                              <Font name="Algerian" size="37.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="22.0" layoutY="32.0" mnemonicParsing="false" onAction="#onBtnA1" prefHeight="76.0" prefWidth="68.0" text="1" textFill="#481515">
+                           <font>
+                              <Font name="Algerian" size="36.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="135.0" layoutY="32.0" mnemonicParsing="false" onAction="#onBtnA2" prefHeight="76.0" prefWidth="68.0" text="2" textFill="#481515">
+                           <font>
+                              <Font name="Algerian" size="36.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="243.0" layoutY="32.0" mnemonicParsing="false" onAction="#onBtnA3" prefHeight="76.0" prefWidth="68.0" text="3" textFill="#481515">
+                           <font>
+                              <Font name="Algerian" size="36.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="352.0" layoutY="32.0" mnemonicParsing="false" onAction="#onBtnA4" prefHeight="76.0" prefWidth="68.0" text="4" textFill="#481515">
+                           <font>
+                              <Font name="Algerian" size="36.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="22.0" layoutY="151.0" mnemonicParsing="false" onAction="#onBtnA5" prefHeight="76.0" prefWidth="68.0" text="5" textFill="#481515">
+                           <font>
+                              <Font name="Algerian" size="36.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="136.0" layoutY="151.0" mnemonicParsing="false" onAction="#onBtnA6" prefHeight="76.0" prefWidth="68.0" text="6" textFill="#481515">
+                           <font>
+                              <Font name="Algerian" size="36.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="243.0" layoutY="151.0" mnemonicParsing="false" onAction="#onBtnA7" prefHeight="76.0" prefWidth="68.0" text="7" textFill="#481515">
+                           <font>
+                              <Font name="Algerian" size="36.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="352.0" layoutY="151.0" mnemonicParsing="false" onAction="#onBtnA8" prefHeight="76.0" prefWidth="68.0" text="8" textFill="#481515">
+                           <font>
+                              <Font name="Algerian" size="36.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="22.0" layoutY="265.0" mnemonicParsing="false" onAction="#onBtnA9" prefHeight="76.0" prefWidth="68.0" text="9" textFill="#481515">
+                           <font>
+                              <Font name="Algerian" size="36.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="134.0" layoutY="266.0" mnemonicParsing="false" onAction="#onBtnA0" prefHeight="76.0" prefWidth="68.0" text="0" textFill="#481515">
+                           <font>
+                              <Font name="Algerian" size="38.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane prefHeight="305.0" prefWidth="256.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="310.0" prefWidth="256.0" style="-fx-background-color: #c324;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Button layoutX="30.0" layoutY="6.0" mnemonicParsing="false" onAction="#onBtnContinue" prefHeight="63.0" prefWidth="202.0" style="-fx-background-radius: 20 20 20 20; -fx-background-color: #68841b;" text="Keyingisi">
+                           <font>
+                              <Font name="Algerian" size="20.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.2131384015083313" green="0.5516582131385803" blue="0.8105263113975525" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Button>
+                        <Button layoutX="30.0" layoutY="77.0" mnemonicParsing="false" onAction="#onBtnResults" prefHeight="63.0" prefWidth="202.0" style="-fx-background-radius: 20 20 20 20; -fx-background-color: #68841b;" text="Natijalar">
+                           <font>
+                              <Font name="Algerian" size="20.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.2131384015083313" green="0.5516582131385803" blue="0.8105263113975525" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Button>
+                        <Button layoutX="30.0" layoutY="231.0" mnemonicParsing="false" onAction="#onBtnExit" prefHeight="63.0" prefWidth="202.0" style="-fx-background-radius: 20 20 20 20; -fx-background-color: #68841b;" text="Chiqish">
+                           <font>
+                              <Font name="Algerian" size="20.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.2131384015083313" green="0.5516582131385803" blue="0.8105263113975525" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Button>
+                        <Button layoutX="30.0" layoutY="155.0" mnemonicParsing="false" onAction="#onBtnComplete" prefHeight="63.0" prefWidth="202.0" style="-fx-background-radius: 20 20 20 20; -fx-background-color: #68841b;" text="Yakunlash">
+                           <font>
+                              <Font name="Algerian" size="20.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.2131384015083313" green="0.5516582131385803" blue="0.8105263113975525" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="1.0" green="1.0" blue="1.0" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </right>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane layoutX="14.0" layoutY="77.0" prefHeight="311.0" prefWidth="292.0" style="-fx-background-color: #ae883b;" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <AnchorPane layoutX="25.0" layoutY="22.0" prefHeight="127.0" prefWidth="242.0">
+                           <children>
+                              <Label layoutY="1.0" prefHeight="120.0" prefWidth="243.0" style="-fx-background-color: #065923;" text="     Test" textFill="#b12169">
+                                 <font>
+                                    <Font name="Arial Black" size="40.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="23.0" layoutY="165.0" prefHeight="122.0" prefWidth="244.0" style="-fx-background-color: #065923;">
+                           <children>
+                              <Label fx:id="labelN1" layoutX="14.0" layoutY="25.0" prefHeight="70.0" prefWidth="69.0" text="11" textFill="#26231e">
+                                 <font>
+                                    <Font name="Arial Black" size="48.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="labelN2" layoutX="160.0" layoutY="25.0" prefHeight="70.0" prefWidth="69.0" text="11" textFill="#26231e">
+                                 <font>
+                                    <Font name="Arial Black" size="48.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="87.0" layoutY="25.0" prefHeight="70.0" prefWidth="69.0" text=" +" textFill="#26231e">
+                                 <font>
+                                    <Font name="Arial Black" size="48.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+      <TextField fx:id="ftFamiliya" layoutX="776.0" layoutY="432.0" prefHeight="48.0" prefWidth="202.0" promptText="Familiya">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ftIsm" layoutX="506.0" layoutY="432.0" prefHeight="48.0" prefWidth="202.0" promptText="Ism">
+         <font>
+            <Font name="Bodoni MT" size="19.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
